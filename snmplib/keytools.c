@@ -4,7 +4,7 @@
  */
 /*
  * Portions of this file are copyrighted by:
- * Copyright © 2003 Sun Microsystems, Inc. All rights reserved.
+ * Copyright ï¿½ 2003 Sun Microsystems, Inc. All rights reserved.
  * Use is subject to license terms specified in the COPYING file
  * distributed with the Net-SNMP package.
  *
@@ -724,7 +724,7 @@ netsnmp_extend_kul(u_int needKeyLen, oid *hashoid, u_int hashoid_len,
         }
         break;
 #endif
-#if defined(NETSNMP_DRAFT_REEDER_3DES)
+#if defined(NETSNMP_DRAFT_BLUMENTHAL_AES_04)
         case USM_CREATE_USER_PRIV_3DES:
             ret = _kul_extend_reeder(needKeyLen, hashoid, hashoid_len,
                                      engineID, engineIDLen,
