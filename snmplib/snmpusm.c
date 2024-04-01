@@ -199,6 +199,7 @@ static const usm_alg_type_t usm_priv_type[] = {
     { "AES-192-C", USM_CREATE_USER_PRIV_AES192_CISCO },
     { "AES192C", USM_CREATE_USER_PRIV_AES192_CISCO },
     { "AES-256-C", USM_CREATE_USER_PRIV_AES256_CISCO },
+    { "3DES", USM_CREATE_USER_PRIV_3DES },
     { "AES256C", USM_CREATE_USER_PRIV_AES256_CISCO },
 #endif
 #endif
